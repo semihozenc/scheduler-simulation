@@ -126,34 +126,35 @@ Bu sınıflar bilerek eksik bırakılmıştır.
 Öğrencilerin bu sınıfları tamamlaması beklenir.
 
 
-FCFS.java
-	•	İlk gelen ilk çalışır
-	•	Queue sırası bozulmaz
+FCFS.java<br>
+	-	İlk gelen ilk çalışır<br>
+	-	Queue sırası bozulmaz
 
 
 
-SJF.java
-	•	En kısa burst süresi seçilir
-	•	Her adımda yeniden seçim yapılır
+SJF.java<br>
+	-	En kısa burst süresi seçilir<br>
+	-	Her adımda yeniden seçim yapılır
 
 
 
-Priority.java
-	•	En yüksek priority değeri seçilir
-	•	Eşitlik durumunda FCFS uygulanabilir
+Priority.java<br>
+	-	Öncelik değeri daha küçük olan görev önce çalıştırılır<br>
+	-	Bu projede **küçük sayılar daha yüksek önceliği temsil etmektedir**<br>
+	-	Eşitlik durumunda FCFS uygulanabilir  
 
 
 
-RR.java
-	•	Round Robin algoritması uygulanır
-	•	Her görev quantum kadar çalıştırılır
-	•	Bitmeyen görev kuyruğun sonuna eklenir
+RR.java<br>
+	-	Round Robin algoritması uygulanır<br>
+	-	Her görev quantum kadar çalıştırılır (quantum 10 seçilebilir)<br>
+	-	Bitmeyen görev kuyruğun sonuna eklenir
 
 
 
-PriorityRR.java
-	•	Önce en yüksek priority grubu seçilir
-	•	Aynı priority içindeki görevlerde Round Robin uygulanır
+PriorityRR.java<br>
+	-	Önce en yüksek priority grubu seçilir (Küçük priority yüksek öncelik)<br>
+	-	Aynı priority içindeki görevlerde Round Robin uygulanır
 
 ---
 
